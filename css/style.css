@@ -38,7 +38,7 @@ main {
 }
 
 #horiz-line {
-    margin-top: 25px;
+    margin-top: 10px;
     background-color: #f6f8f9;
     height: 2px;
     border: none;
@@ -47,6 +47,7 @@ main {
 .nav-button {
     border-radius: 5px;
     padding: 7px;
+    display: inline-block;
 }
 
 #task-button {
