@@ -39,6 +39,9 @@ main {
 
 #horiz-line {
     margin-top: 25px;
+    background-color: #f6f8f9;
+    height: 2px;
+    border: none;
 }
 
 .nav-button {
@@ -94,21 +97,21 @@ main {
 }
 
 #diff-back1 {
-    background-color: purple;
+    background-color: #9c72e4;
 }
 
 #diff-back2 {
-    background-color: green;
+    background-color: #64c0a9;
 }
 
 #diff-back3 {
-    background-color: orangered;
+    background-color: #f29e33;
 }
 
 #diff-back4 {
-    background-color: pink;
+    background-color: #d863a1;
 }
 
 #diff-back5 {
-    background-color: darkgoldenrod;
+    background-color: #b0c926;
 }
