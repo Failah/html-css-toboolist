@@ -61,7 +61,7 @@ main {
 
 .list-element {
     margin-left: 23px;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 .check-mark {
@@ -71,9 +71,21 @@ main {
     padding: 2px;
 }
 
+.uncheck-mark {
+    border: 1px solid red;
+    color: red;
+    border-radius: 50%;
+    padding: 2px;
+}
+
 .endline-indication {
     background-color: blue;
     color: white;
-    border-radius: 3px;
+    border-radius: 5px;
     font-size: 0.6rem;
+    padding: 4px;
+}
+
+#diff-back1 {
+    background-color: purple;
 }
