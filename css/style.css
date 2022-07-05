@@ -7,7 +7,7 @@
 
 header {
     height: 70px;
-    background-color: red;
+    background-color: white;
 }
 
 #upper-logo {
@@ -17,10 +17,13 @@ header {
 #upper-title {
     display: inline-block;
     font-size: 1.5rem;
+    vertical-align: 70%;
 }
 
 main {
-    background-color: grey;
+    background-color: #f6f8f9;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .container {
@@ -34,13 +37,17 @@ main {
     border-radius: 5px;
 }
 
+#horiz-line {
+    margin-top: 25px;
+}
+
 .nav-button {
     border-radius: 5px;
     padding: 7px;
 }
 
 #task-button {
-    background-color: aqua;
+    background-color: #47adf1;
     color: white;
     margin-top: 10px;
     margin-right: 10px;
@@ -79,7 +86,7 @@ main {
 }
 
 .endline-indication {
-    background-color: blue;
+    background-color: #47adf1;
     color: white;
     border-radius: 5px;
     font-size: 0.6rem;
