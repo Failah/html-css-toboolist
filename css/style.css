@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 70px;
+    background-color: red;
+}
+
+#upper-logo {
+    margin: 10px;
+}
+
+#upper-title {
+    display: inline-block;
+    font-size: 1.5rem;
+}
