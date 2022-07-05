@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
@@ -16,4 +17,63 @@ header {
 #upper-title {
     display: inline-block;
     font-size: 1.5rem;
+}
+
+main {
+    background-color: grey;
+}
+
+.container {
+    background-color: white;
+    max-width: 900px;
+    height: 1000px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    border-radius: 5px;
+}
+
+.nav-button {
+    border-radius: 5px;
+    padding: 7px;
+}
+
+#task-button {
+    background-color: aqua;
+    color: white;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+#section-button {
+    border: 1px solid grey;
+    color: grey;
+}
+
+.new-task {
+    margin-left: 20px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.list-element {
+    margin-left: 23px;
+    margin-top: 5px;
+}
+
+.check-mark {
+    border: 1px solid green;
+    color: green;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.endline-indication {
+    background-color: blue;
+    color: white;
+    border-radius: 3px;
+    font-size: 0.6rem;
 }
